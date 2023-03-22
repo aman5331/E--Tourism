@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      complete responsive tour and travel agency website design tutorial
+    </title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>E</span> Uttarakhand</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="./assets/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-5.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video src="" id="video-slider" loop autoplay muted></video>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+      <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="assets/book-img.svg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name" />
+          </div>
+          <div class="inputBox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests" />
+          </div>
+          <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date" />
+          </div>
+          <div class="inputBox">
+            <h3>leaving</h3>
+            <input type="date" />
+          </div>
+          <input type="submit" class="btn" value="book now" />
+        </form>
+      </div>
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+      <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img
+            src="https://image.freepik.com/free-photo/wooden-boat-sailing-river-ganges-varanasi-india_53876-65493.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Haridwar</h3>
+            <p>
+              Haridwar is a city and municipal corporation in the Haridwar
+              district of Uttarakhand, India.The city is situated on the right
+              bank of the Ganges river, at the foothills of the Shivalik ranges.
+              Haridwar is regarded as a holy place for Hindus, hosting important
+              religious events and serving as a gateway to several prominent
+              places of worship.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs 900.00 <span>Rs 1200.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://image.freepik.com/free-photo/two-athletic-man-floats-red-boat-river_1153-3727.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Rishikesh</h3>
+            <p>
+              Rishikesh, also spelt as Hrishikesh, is a city near Dehradun in
+              Dehradun district of the Indian state Uttarakhand. It is known as
+              the "Gateway to the Garhwal Himalayas" and "Yoga Capital of the
+              World".The city has hosted the annual "International Yoga
+              Festival" on the first week of March since 1999. Rishikesh is a
+              vegetarian-only and alcohol-free city.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs 1200.00 <span>Rs 1500.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://img.freepik.com/free-photo/beas-river-kullu-valley-himachal-pradesh-india_163782-145.jpg?size=626&ext=jpg&uid=R61536591&ga=GA1.1.2130641401.1641029334"
+            alt=""
+          />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Mussoorie</h3>
+            <p>
+              Mussoorie is a hill station and a municipal board, near Dehradun
+              city in the Dehradun district of the Indian state of Uttarakhand.
+              Mussoorie has long been known as Queen of the Hills. The name
+              Mussoorie is often attributed to a derivation of mansūr, a shrub
+              which is indigenous to the area. Mussoorie has again gained
+              popularity as an upcoming travel destination with many attractions
+              such as Camel's back road, Dhanaulti, Lal Tibba, etc.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs 1700.00 <span>Rs 2000.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://img.freepik.com/free-photo/river-surrounded-by-forests-cloudy-sky-thuringia-germany_181624-30863.jpg?size=626&ext=jpg&uid=R61536591&ga=GA1.1.2130641401.1641029334"
+            alt=""
+          />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Nainital</h3>
+            <p>
+              Nainital is located in the Kumaon foothills of the Jagbeer
+              Himalayas at a distance of 285 km (177 mi) from the state capital
+              Dehradun and 345 km (214 mi) from New Delhi, the capital of
+              India.A popular hill station, Nainital has numerous tourist spots
+              including Nainital Lake, Naina Peak 8622ft, Himalaya Darshan &
+              Echo Zone, Hanumangarhi and Pt. G.B. Pant High Altitude Zoo,
+              Nainital. Nainital is Kumaon's most well known hill station, and
+              its premier tourist destination.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs 1900.00 <span>Rs 2200.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/09/23/19/07/vishnu-temple-2779856_960_720.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Badrinath</h3>
+            <p>
+              Badrinath is a town and nagar panchayat in Chamoli district in the
+              state of Uttarakhand, India. A Hindu holy place, it is one of the
+              four sites in India's Char Dham pilgrimage and is also part of
+              India's Chota Char Dham pilgrimage circuit. It gets its name from
+              the Badrinath Temple.The Badrinath temple is the main attraction
+              in the town. According to legend, Adi Shankaracharya discovered a
+              black stone image of Lord Badrinarayan made of Shaligram stone in
+              the Alaknanda River.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs 700.00 <span>Rs 1100.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://www.euttaranchal.com/tourism/timthumb.php?src=/tourism/photos/kedarnath-2802883.jpg&w=400&h=275"
+            alt=""
+          />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Kedarnath</h3>
+            <p>
+              Kedarnath is a town and Nagar Panchayat in Rudraprayag district of
+              Uttarakhand, India, known primarily for the Kedarnath Temple.he
+              Kedarnath Temple is closed during the winter months due to heavy
+              snowfall. For six months, from November to April, the palanquin
+              with the Utsava Murti (Idol) of Kedarnath and of the
+              Madhyamaheshwar Temple is brought to the Omkareshwar Temple in
+              Ukhimath, near Guptakashi.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs 1000.00 <span>Rs 1300.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://www.tourmyindia.com/socialimg/uttarakhand-tourism.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Lansdowne</h3>
+            <p>
+              Lansdowne is a cantonment town in Pauri Garhwal is a district in
+              the Indian state of Uttarakhand.The War Memorial, at the Parade
+              Ground of the Garhwal Rifles Center, is an attraction for the
+              visitors. Prior permission from the military authority has to be
+              obtained. Places of interest around the city include Tip n Top
+              View Point, Kaleshwar Mahadev Temple, which is the most visited
+              Temple in Lansdowne
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs 900.00 <span>Rs 1200.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="https://wallpapercave.com/wp/wp2037925.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Auli</h3>
+            <p>
+              At a distance of 16 km from Joshimath, 56 km from Badrinath, 262
+              km from Rishikesh, 304 km from Dehradun and 495 km from Delhi,
+              Auli is a cute hill station in Chamoli district of Uttarakhand. It
+              is one of the best ski resorts in India and one of the top
+              Uttarakhand tourism destinations for adventure sports.It is also
+              the gateway to the Nanda Devi and the Valley of Flowers National
+              Park, including the Hemkund Sahib gurdwara.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs 900.00 <span>Rs 1200.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img
+            src="https://image.freepik.com/free-photo/wooden-boat-sailing-river-ganges-varanasi-india_53876-65493.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Chakrata</h3>
+            <p>
+              Chakrata - A Magical Hill Station Embellished by the sun-kissed
+              Himalayan ranges, the beauteous hill station of Chakrata is seated
+              at an elevation of 2,118 metres above sea level. This secluded
+              hilly town is cradled in the Dehradun district and is an ideal
+              weekend getaway for the backpackers. Dotted by the coniferous
+              forests, Chakrata is a loner’s delight as it is far away from the
+              hustle and bustle of the city life.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs 900.00 <span>Rs 1200.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>food and drinks</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>safty guide</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-globe-asia"></i>
+          <h3>around the world</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>fastest travel</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>adventures</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            commodi earum, quis voluptate exercitationem ut minima itaque iusto
+            ipsum corrupti!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img
+            src="https://www.thestatesman.com/wp-content/uploads/2019/12/QT-Kedarnath.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="https://pilgrimageask.com/wp-content/uploads/2017/04/Badrinath-1200x800.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="https://th.bing.com/th/id/R.d912f0dea22cfba03061df05c2a8da1f?rik=iFvTDMx3XMrW3A&riu=http%3a%2f%2f2.bp.blogspot.com%2f-s42JYRuNsqE%2fVPtaXLW9A7I%2fAAAAAAAAByM%2fcQvJjujf7rM%2fs1600%2fnainital.jpg&ehk=U32q%2bVhaUmYR3sKuwZyEJ6aiRdTAecgXmv8%2bVdKgfIM%3d&risl=&pid=ImgRaw&r=0"
+            alt=""
+          />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="https://www.tourmyindia.com/socialimg/uttarakhand-tourism.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="https://th.bing.com/th/id/R.e527ddd8a4a8bbc224c21a72c318a202?rik=3lExk3YfbMBsGw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-VYyR8jn3MOM%2fT3oPEVIRnrI%2fAAAAAAAAAxo%2fuZN9u5m3yPk%2fs1600%2frishikesh.JPG&ehk=BejifwPWCdi7tSfSegf7CaM45ruiMaG5sOCbVQuAG28%3d&risl=&pid=ImgRaw&r=0"
+            alt=""
+          />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="https://planetabled.com/wp-content/uploads/2017/02/7.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="https://images.thrillophilia.com/image/upload/s--_51Gdsee--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/232/685/original/1587197544_Haridwar_tourism.jpg.jpg?1587197544"
+            alt=""
+          />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="https://wallpapercave.com/wp/wp2037925.jpg" alt="" />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="https://www.holidify.com/images/cmsuploads/compressed/Gangotri_national_park_2_20190228145401.jpg"
+            alt=""
+          />
+          <div class="content">
+            <h3>amazing places</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              tenetur.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="assets/pic1.png" alt="" />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="assets/pic2.png" alt="" />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="assets/pic3.png" alt="" />
+              <h3>john deo</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                adipisci quisquam sunt nesciunt fugiat odit minus illum
+                asperiores dolorum enim sint quod ipsam distinctio molestias
+                consectetur ducimus beatae, reprehenderit exercitationem!
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="assets/contact-img.svg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="number" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea
+            placeholder="message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+    <section class="brand-container">
+      <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/2.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="assets/3.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="assets/4.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="assets/5.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="assets/6.jpg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>about us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            quas magni pariatur est accusantium voluptas enim nemo facilis sit
+            debitis.
+          </p>
+        </div>
+        <div class="box">
+          <h3>branch locations</h3>
+          <a href="#">New Delhi</a>
+          <a href="#">Mumbai</a>
+          <a href="#">Tamil Nadu</a>
+          <a href="#">Rajasthan</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">book</a>
+          <a href="#">packages</a>
+          <a href="#">services</a>
+          <a href="#">gallery</a>
+          <a href="#">review</a>
+          <a href="#">contact</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">instagram</a>
+          <a href="#">twitter</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        created by <span> Amandeep Vaibhav Pratap </span> | all rights reserved!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
